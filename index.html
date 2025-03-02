@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devive-width">
+        <link rel="stylesheet" href="./css/portfolio.css">
+        <title>Mardochee Bayanga</title>
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <div class="navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <!--/Navbar-->
+
+        <br>
+        <br>
+        
+        <!--Background-video-->
+        <div id="Home">
+            <video autoplay muted loop id="typing-video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                Your browser does not support the video tag. <!--Message displayed if the video fails to run-->
+            </video>
+        </div>
+        <!--/Background-video-->
+
+        <!--Video-text-->
+        <div class="video-text">
+            <h1 class="white-text">Software and Web Developer</h1>
+            <strong>
+                <p class="center">
+                    Welcome! I specialize in building scalable, high-performance software solutions and
+                    <br>enjoy working with various technologies to bring ideas to life. 
+                    <br>
+                    <br>My name is Mardochee Bayanga. Let's collaborate!
+                    <br>
+                    <br>Explore my portfolio and feel free to <a href="#Contact">connect</a>.
+                </p>
+            </strong>
+        </div>
+        <!--/Video-text-->
+        
+        <!--About-->
+        <div id="About" class="row">
+
+            <!--Left-column-->
+            <div class="column2">
+                <img src="./images/developer.png" alt="Developer image">
+            </div>
+            <!--/Left-column-->
+
+            <!--Right-column-->
+            <div class="column1">
+                <h1>About</h1>
+                <p>
+                    Passionate developer with a dedication to continuous learning and a commitment to excellence, I transform
+                    ideas into scalable, efficient, and user-friendly applications that solve real-world challenges.
+                    <br>
+                    <br>My expertise includes the following web and programming languages: HTML5, CSS3, JavaScript, SQL, Java and more.
+                    <br>
+                    <br>I am always excited for new challenges and opportunities to apply and expand my knowledge. Let's build something
+                    amazing together! <a href="#Contact">Contact</a> me below! 
+                </p>
+            </div>
+            <!--/Right-column-->
+
+        </div>
+        <!--/About-->
+
+        <!--GitHub-->
+        <div id="GitHub" class="row">
+
+            <!--Left-column-->
+            <div class="column1">
+                <h1>GitHub</h1>
+                <p>
+                    I believe in clean code, best practices, and continuous learning. My GitHub repository features a collection
+                    of projects and experiments.
+                    <br>
+                    <br> Check out my GitHub <a href="https://github.com/amanamard" target="_blank">here</a>.
+                </p>
+            </div>
+            <!--/Left-column-->
+
+            <!--Right-column-->
+            <div class="column2">
+                <a href="https://github.com/amanamard" target="_blank"><img src="./images/GitHub.png" alt="GitHub logo"></a>
+            </div>
+            <!--/Right-column-->
+        
+        </div>
+        <!--/GitHub-->
+
+        <!--Contact-->
+        <div id="Contact" class="row">
+
+            <!--Left-column-->
+            <div class="column2 option">
+                <img src="./images/connect.png" alt="Connect image">
+            </div>
+            <!--/Left-column-->
+
+            <!--Right-column-->
+            <div class="column1 option">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/mwpvdznl" method="post"> <!--Here we are utilizing a 3rd party service to submit the contact form data-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            <!--/Right-column-->
+
+        </div>
+        <!--/Contact-->
+
+        <footer>
+            <p>
+                <p class="center">&copy 2025 Mardochee Bayanga</p>
+                <br>
+            </p>
+        </footer>
+
+    </body>
+</html>
